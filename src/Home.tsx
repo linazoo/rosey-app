@@ -1,5 +1,6 @@
 import React from "react";
 import { styled, useTheme } from "@mui/material/styles";
+import Categories from "./Categories";
 
 import { Box, Checkbox, Typography } from "@mui/material";
 
@@ -9,14 +10,7 @@ const Home = (props: Props) => {
   const [count, setCount] = React.useState(0);
   const theme = useTheme();
 
-  return (
-    <div>
-      {/* <Checkbox defaultChecked /> */}
-      <Box>
-        <Typography variant="h1">hey</Typography>
-      </Box>
-    </div>
-  );
+  return <Categories />;
 };
 
 export default Home;

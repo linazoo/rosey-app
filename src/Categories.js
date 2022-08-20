@@ -28,7 +28,7 @@ const Categories = () => {
 
   return (
     <div className="App">
-      <Typography variant="h2" sx={{ m: { lg: "40px", xs: "30px" } }}>
+      <Typography variant="h1" sx={{ m: { lg: "40px", xs: "30px" } }}>
         My House
       </Typography>
       <Box>

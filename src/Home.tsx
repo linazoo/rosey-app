@@ -10,11 +10,7 @@ const Home = (props: Props) => {
   const [count, setCount] = React.useState(0);
   const theme = useTheme();
 
-  return (
-    <React.Fragment>
-      <Categories />
-    </React.Fragment>
-  );
+  return <Categories />;
 };
 
 export default Home;
